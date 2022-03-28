@@ -1,6 +1,6 @@
 # Project Documentation
 
-# Setup
+## Setup
 
 ```shell
 sudo apt update
@@ -16,3 +16,7 @@ nvm install v12.22.10 && nvm use v12.22.10
 
 rm -rf node_modules && npm install
 ```
+
+## Testing
+
+`npx jest` or `npx jest --watch`
