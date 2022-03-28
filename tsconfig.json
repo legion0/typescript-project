@@ -1,0 +1,27 @@
+{
+	"compileOnSave": true,
+	"compilerOptions": {
+		"strict": true,
+		"target": "ES6",
+		"moduleResolution": "node",
+		"outDir": "dist/js",
+		"types": [
+			"node",
+			"@types/jest",
+		]
+	},
+	"forceConsistentCasingInFileNames": true,
+	"noImplicitReturns": true,
+	"noUnusedLocals": true,
+	"rootDir": "src",
+	"include": [
+		"./src/*.ts",
+		"src/creeps/creep.Hauler.ts",
+		"src/creeps/creep.Boot.ts",
+	],
+	"exclude": [
+		"./src/*.spec.ts",
+	],
+	"emitDecoratorMetadata": true,
+	"esModuleInterop": true,
+}

@@ -1,0 +1,23 @@
+{
+	"git.ignoreLimitWarning": true,
+	"editor.formatOnSave": true,
+	"editor.tabSize": 2,
+	"eslint.format.enable": true,
+	"eslint.lintTask.enable": true,
+	"eslint.probe": [
+		"typescript",
+		"markdown"
+	],
+	"javascript.preferences.quoteStyle": "single",
+	"typescript.preferences.quoteStyle": "single",
+	"typescript.format.semicolons": "insert",
+	"typescript.locale": "en",
+	"javascript.suggest.completeFunctionCalls": true,
+	"typescript.suggest.completeFunctionCalls": true,
+	"typescript.referencesCodeLens.showOnAllFunctions": true,
+	"javascript.referencesCodeLens.showOnAllFunctions": true,
+	"javascript.referencesCodeLens.enabled": true,
+	"files.exclude": {
+		"**/node_modules": true
+	},
+}

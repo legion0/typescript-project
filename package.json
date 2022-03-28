@@ -1,0 +1,22 @@
+{
+	"devDependencies": {
+		"@types/jest": "^25.2.3",
+		"@types/node": "^13.13.2",
+		"eslint": "^7.0.0",
+		"eslint-plugin-jsdoc": "^25.4.1",
+		"jest": "^25.2.3",
+		"rollup": "^2.7.2",
+		"ts-jest": "^25.5.1",
+		"typescript": "^3.9.2"
+	},
+	"formatFiles": {
+		"excludePattern": [
+			"/node_modules/**",
+			"/dist/**",
+			"/mocks/**"
+		]
+	},
+	"scripts": {
+		"test": "jest"
+	}
+}
