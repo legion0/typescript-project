@@ -1,6 +1,7 @@
 {
 	"compileOnSave": true,
 	"compilerOptions": {
+		"esModuleInterop": true,
 		"strict": true,
 		"target": "ES6",
 		"moduleResolution": "node",
@@ -23,5 +24,4 @@
 		"./src/*.spec.ts",
 	],
 	"emitDecoratorMetadata": true,
-	"esModuleInterop": true,
 }
